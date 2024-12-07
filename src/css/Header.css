@@ -1,0 +1,187 @@
+.shop-name{
+  margin-left: 15px;
+}
+.navbar-custom {
+    position: sticky;
+    top: 0;
+    z-index: 1020; 
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+.navbar-collapse {
+  background-color: #f8f9fa; 
+  padding: 15px; 
+}
+
+.navbar-collapse .nav-link {
+  color: #333; 
+  text-align: center;
+  padding: 10px 0; 
+}
+
+.navbar-collapse .nav-link:hover {
+  color: #0056b3; 
+  text-decoration: none; 
+}
+
+  
+  .navbar-custom .brand-name {
+    
+    display: flex;
+    font-weight: bolder;
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  .nav-link {
+    cursor: pointer;
+    color: #110a30 !important;
+    font-size: 20px !important;
+    font-weight: bolder !important;
+  }
+  
+  .drop-link {
+    margin-top: -8px;
+  }
+  
+  .shop-name {
+    cursor: default;
+    font-weight: bold !important;
+    font-size: 1.5rem;
+    color: #09051a !important;
+    transition: color 0.3s ease; 
+  }
+  
+  .cart-icon-wrapper {
+    position: relative; 
+  }
+  
+  .cart-icon {
+    font-size: 1.5rem;
+    color: #050525;
+    transition: color 0.3s ease; 
+  }
+  
+  .cart-count {
+    position: absolute; 
+    top: -5px; 
+    right: -10px; 
+    font-size: 0.8rem;
+    background-color: #ff5722;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-weight: bold;
+  }
+  
+  
+  .navbar-custom .brand-name:hover,
+  .navbar-custom .shop-name:hover,
+  .navbar-custom .cart-icon-wrapper:hover {
+    color: #0056b3; 
+  }
+  
+  .navbar-custom .nav-link:hover,
+  .navbar-custom .navbar-brand:hover {
+    color: #0056b3 !important; 
+  }
+  
+  .navbar-custom .nav-dropdown-menu a:hover {
+    color: #007bff; 
+  }
+  
+ 
+@media (max-width: 1200px) {
+  .navbar-custom {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; 
+  }
+
+  .navbar-custom .nav-link {
+    font-size: 1rem;
+    margin-left: 0;
+  }
+
+ 
+  .cart-icon-wrapper {
+    margin-left: 0; 
+  }
+
+  .cart-icon {
+    font-size: 2.3rem;
+  }
+
+  
+  .navbar-collapse {
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .cart-icon-wrapper {
+    margin-left: 0; 
+  }
+
+  .shop-name {
+    font-size: 1.3rem;
+  }
+
+  .navbar-custom .nav-link {
+    font-size: 0.9rem;
+    margin-left: 0;
+  }
+
+  .cart-icon {
+    font-size: 2.3rem;
+  }
+
+  .cart-count {
+    font-size: 0.7rem;
+    top: -4px;
+    right: -8px;
+    padding: 2px 5px;
+  }
+
+  
+  .navbar-collapse {
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+
+  .navbar-custom {
+    padding: 10px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .cart-icon-wrapper {
+    margin-left: 0; 
+  }
+
+  .shop-name {
+    font-size: 1.2rem;
+  }
+
+  .nav-link {
+    margin-left: -9px;
+  }
+
+  .cart-icon {
+    font-size: 2.2rem;
+    margin-left: -100px;
+  }
+
+  .cart-count {
+    font-size: 0.65rem;
+    top: -3px;
+    right: 55px;
+    padding: 1px 4px;
+  }
+}

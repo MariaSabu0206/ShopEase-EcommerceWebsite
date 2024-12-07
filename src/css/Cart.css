@@ -1,0 +1,122 @@
+
+.cart-container {
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #f8f9fa; 
+  }
+  
+  
+  .cart-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  
+  .cart-items {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px; 
+  }
+  
+
+  .cart-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative; 
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .cart-item-img {
+    width: 100%;
+    height: auto;
+    margin: 15px auto 10px; 
+    display: block;
+    max-height: 200px; 
+    object-fit: contain; 
+  }
+  
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .card-text {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  .btn-secondary {
+        background-color: #060e34 !important;
+  }
+  
+ 
+  .cart-item-controls {
+   
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+  }
+  
+  .cart-item-quantity {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  
+  .btncross {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .total-price {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  
+  .proceed-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .proceed-btn {
+    background-color: #082252 !important;
+    border-color: #082252 !important;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .proceed-btn:hover {
+    background-color: #041221 !important;
+    border-color: #041221 !important;
+  }
+  

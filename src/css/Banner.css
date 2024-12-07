@@ -1,0 +1,257 @@
+
+.banner-container {
+    position: relative;
+    background-image: url('../assets/banner6.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    width: 100%; 
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-content {
+    cursor: default;
+    color: white;
+    z-index: 2;
+    text-align: center; 
+}
+
+.banner-title {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto; 
+    gap: 10px;
+}
+
+.search-input {
+    width: 250px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-bottom: 0px;
+}
+
+.search-button:hover {
+    background-color: #0056b3; 
+}
+
+.search-button svg {
+    margin-left: 5px; 
+    font-size: 1.2rem;
+}
+
+
+.search-results {
+    position: absolute;
+    top: 458px; 
+    left: 332px;
+    background-color: white;
+    color: black;
+    width: 790px;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;
+    z-index: 10; 
+}
+
+.search-results ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.search-results li {
+    padding: 10px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.search-results li:hover {
+    background-color: #f0f0f0; 
+}
+
+.search-results li a {
+    text-decoration: none; 
+    color: black; 
+}
+
+
+@media (max-width: 1200px) {
+    .banner-title {
+        font-size: 3.5rem;
+    }
+
+    .banner-container{
+        background-image: url('../assets/banner6small.jpg');
+    }
+
+    .search-input {
+        width: 220px;
+    }
+
+    .search-button {
+        font-size: 0.9rem;
+    }
+
+    
+    .search-results {
+        margin-left: -229px;
+        top: 642px;
+        width: 533px
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-container {
+        height: 80vh;
+    }
+
+    .banner-container{
+        background-image: url('../assets/banner6small.jpg');
+    }
+
+    .banner-title {
+        font-size: 2.5rem;
+    }
+
+    .search-input {
+        width: 200px;
+    }
+
+    .search-button {
+        font-size: 0.8rem;
+    }
+
+    .search-results {
+        margin-left: -159px;
+        top: 455px;
+        width: 361px;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner-container {
+        height: 70vh;
+        padding: 20px; 
+    }
+
+    .banner-container{
+        background-image: url('../assets/banner6small.jpg');
+    }
+
+    .banner-content {
+        transform: translateY(0); 
+    }
+
+    .banner-title {
+        font-size: 1.8rem;
+    }
+
+    .search-input {
+        width: 180px;
+    }
+
+    .search-button {
+        font-size: 0.7rem;
+        padding: 8px 12px;
+    }
+
+    .search-results {
+        top: 94px;
+        margin-left: -319px;
+        width: 255px;
+    }
+}
+@media (max-width: 450px) {
+    .banner-container {
+        height: 70vh;
+        padding: 20px; 
+    }
+
+    .banner-container{
+        background-image: url('../assets/banner6small.jpg');
+    }
+
+    .banner-content {
+        transform: translateY(0); 
+    }
+
+    .banner-title {
+        font-size: 1.8rem;
+    }
+
+    .search-input {
+        width: 180px;
+    }
+
+    .search-button {
+        font-size: 0.7rem;
+        padding: 8px 12px;
+    }
+
+    .search-results {
+        top: 76px;
+        margin-left: -332px;
+        width: 249px;
+    }
+}
+
+@media (max-width: 390px) {
+    .banner-container {
+        height: 70vh;
+        padding: 20px; 
+    }
+
+    .banner-container{
+        background-image: url('../assets/banner6small.jpg');
+    }
+
+    .banner-content {
+        transform: translateY(0); 
+    }
+
+    .banner-title {
+        font-size: 1.8rem;
+    }
+
+    .search-input {
+        width: 180px;
+    }
+
+    .search-button {
+        font-size: 0.7rem;
+        padding: 8px 12px;
+    }
+
+    .search-results {
+        top: 76px;
+        margin-left: -332px;
+        width: 249px;
+    }
+}
